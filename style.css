@@ -2,9 +2,7 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     box-sizing: inherit;
 }
 
@@ -174,4 +172,8 @@ body {
     padding: 20px;
     background: white;
     text-align: justify;
+}
+
+.footer {
+    margin-left: 20px;
 }
