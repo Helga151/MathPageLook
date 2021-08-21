@@ -1,6 +1,11 @@
 const nav = document.querySelector('.navigation');
 const topOfNav = nav.offsetTop;
 const toggleMenu = document.querySelector('.hamburger');
+const footer = document.querySelector('.footer');
+
+var today = new Date();
+var yr = today.getFullYear();
+footer.textContent = `©${yr} Olga Gerlich `;
 
 function navScroll() {
     if (topOfNav <= window.scrollY) {
